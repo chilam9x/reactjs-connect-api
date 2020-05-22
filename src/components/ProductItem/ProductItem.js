@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class ProductItem extends Component {
     render() {
         var { product, index } = this.props;
-        var statusName=product.status?'con hang':'het hang';
+        var statusName=product.status?'còn hàng':'hết hàng';
         var statusClass=product.status?'warning':'default';
         return (
             <tr>
